@@ -1,0 +1,81 @@
+// /**
+//  * Basic typography style for copy text
+//  */
+//
+// html {
+//   // This defines what 1 rem is
+//   font-size: 62.5%;
+// }
+//
+// body {
+//   color: $text-color;
+//   font: normal 1.6rem / 1.5 $text-font-stack;
+//
+//   @include respond-to(sm) {
+//     font: normal 2rem / 1.5 $text-font-stack;
+//   }
+// }
+//
+// * {
+//   &::selection {
+//     background: $light-grey;
+//     color: white;
+//   }
+// }
+//
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: $heading-font-stack;
+// }
+//
+// p {
+//   font-weight: 300;
+// }
+//
+// a {
+//   font-weight: 400;
+// }
+//
+// .heading--lg {
+//   color: $brand-color;
+//   font-size: 3rem;
+//   line-height: 1.1;
+//   font-weight: 400;
+//   font-family: $heading-font-stack;
+//
+//   @include respond-to(md) {
+//     font-size: 4rem;
+//   }
+// }
+//
+// .heading--md {
+//   font-size: 2.5rem;
+//   line-height: 1.4;
+//   font-weight: 400;
+//   color: $brand-color;
+//   font-family: $heading-font-stack;
+//
+//   @include respond-to(md) {
+//     font-size: 3.5rem;
+//     line-height: 1.3;
+//   }
+// }
+//
+// .heading--sm {
+//   font-size: 2rem;
+//   font-weight: 400;
+//   color: $brand-color;
+//   font-family: $heading-font-stack;
+// }
+//
+// .cta-text {
+//   font-size: 1.6rem;
+//   font-weight: 400;
+//   color: $light-grey;
+//   font-family: $text-font-stack;
+//   text-transform: uppercase;
+// }
